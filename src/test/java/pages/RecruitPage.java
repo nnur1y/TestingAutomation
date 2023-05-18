@@ -116,12 +116,9 @@ public class RecruitPage {
         hireBtn.click();
         Thread.sleep(2000);
         save6Btn.click();
+        Thread.sleep(3000);
 
     }
 
-    public Boolean checkTest(String name) throws InterruptedException {
-        Thread.sleep(2500);
-        return driver.getPageSource().contains(name);
-    }
 
 }

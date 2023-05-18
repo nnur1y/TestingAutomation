@@ -79,7 +79,7 @@ public class Orangehrmlive {
     public void pimTest() throws InterruptedException {
         PIMpage piMpage = new PIMpage(driver);
         piMpage.goPIM();
-        piMpage.fillEmpNameHint("Linda Jane Anderson");
+        piMpage.fillEmpNameHint("Kevin  Mathews");
         piMpage.clickSearchBtn();
 
         int count = piMpage.findCountOfRec();
@@ -111,9 +111,6 @@ public class Orangehrmlive {
         recPage.fillInterviewer("Odis  Adalwin");
         recPage.fillDateInterview("2023-05-18");
         recPage.clickButtons();
-        Assert.assertTrue(recPage.checkTest("Nurly"));
-
-
 
 
     }

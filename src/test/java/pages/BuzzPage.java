@@ -61,8 +61,6 @@ public class BuzzPage {
 
     public Boolean checkPost(String postText){
         post = lastPost.getText();
-        System.out.println("Post: \n" + post);
-        System.out.println("Time when you post:\n"+now);
         return post.contains(postText);
     }
 
